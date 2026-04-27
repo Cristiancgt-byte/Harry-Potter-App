@@ -1,0 +1,52 @@
+.contenedor-original {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f0f2f5;
+  min-height: 80vh;
+}
+
+.boton-invocar {
+  background-color: #740001; /* Rojo Gryffindor */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.boton-invocar:hover {
+  background-color: #ae0001;
+  transform: scale(1.05);
+}
+
+.boton-invocar:disabled {
+  background-color: #ccc;
+}
+
+.resultado-invocacion {
+  margin-top: 30px;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  max-width: 300px;
+}
+
+.resultado-invocacion img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.datos-curiosos {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 10px;
+}

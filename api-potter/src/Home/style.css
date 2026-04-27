@@ -1,0 +1,10 @@
+.contenedor-home { padding: 20px; }
+.controles { display: flex; gap: 10px; margin-bottom: 20px; }
+.controles input, .controles select { 
+  padding: 10px; border-radius: 8px; border: 1px solid #ccc; 
+}
+.rejilla-personajes { 
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; 
+}
+.tarjeta-mago { border: 1px solid #ddd; border-radius: 12px; padding: 15px; text-align: center; }
+.tarjeta-mago img { width: 100%; border-radius: 8px; height: 250px; object-fit: cover; }
